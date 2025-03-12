@@ -13,3 +13,13 @@ body{
 header{
     background-color: #F4A460;
 }
+
+section {
+    padding-bottom: 5rem;
+}
+
+
+.nav-link {
+    color: #CB6D43;
+    font-weight: 600;
+}
