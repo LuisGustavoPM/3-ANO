@@ -1,0 +1,15 @@
+.root {
+    --Bege: #FFDEAD;
+    --Ocre: #CD853F;
+    --Chocolate: #D2691E;
+    --Areia: #F4A460; 
+}
+
+body{
+    font-size: 1rem;
+    font-family: 'Montserrat';
+}
+
+header{
+    background-color: #F4A460;
+}
