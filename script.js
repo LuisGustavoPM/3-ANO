@@ -1,4 +1,8 @@
-function toggleMenu() {
-    const navLinks = document.querySelector('.nav-links');
-    navLinks.classList.toggle('active');
-}
+let close = document.querySelector('.btn-menu')
+
+close.addEventListener('click', function() {
+  var menu = document.querySelector('.menu')
+  if (menu.style.display == 'none') {
+    menu.style.display = 'show'
+  }
+})
