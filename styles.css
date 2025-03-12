@@ -10,7 +10,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--Bege);
+    background-color: #F4A460;
     padding: 20px 20px;
   }
   nav {
