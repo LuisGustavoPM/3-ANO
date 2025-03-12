@@ -4,28 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <header class="cabeçalho">
-        <h3>Portifólio 2025</h3>
-        <nav class="">
-            <img src="image 1 (1).png" class="icone" loading="lazy">
-            <ul class="tópicos">
-                <li class="nav-item"><a class="nav-link" href="/atividades">Atividades</a></li>
-                <li class="nav-item"><a class="nav-link" href="/provas">Provas</a></li>
-                <li class="nav-item"><a class="nav-link" href="/projetos">Projetos</a></li>
+    <header>
+        <div class="logo">
+            <a href="#">Meu Site</a>
+        </div>
+        <nav class="nav-links">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Contato</a></li>
             </ul>
-                    <form>
-                      <input placeholder='Pesquisar'/>
-                      <button>Enviar</button>
-                    </form>
-                  </header>
-            </div>
         </nav>
-
+        <div class="search-container">
+            <input type="text" placeholder="Pesquisar...">
+            <button type="submit">🔍</button>
+        </div>
+        <div class="hamburger" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
     </header>
+
+    <script src="script.js"></script>
 </body>
 </html>
