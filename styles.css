@@ -10,10 +10,12 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between;
+    width: 100%;
+    justify-content: center;
     align-items: center;
     padding: 10px 20px;
     background-color: #333;
+    position: relative;
     color: white;
 }
 
@@ -46,4 +48,8 @@ header {
     background-color: rgba(255, 255, 255, 0);
     top: 0;
     left: 0;
+  }
+
+  #menu-toogle{
+    display: none;
   }
