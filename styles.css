@@ -78,3 +78,15 @@ header {
     left: 1rem;
     top: 100%;
   }
+
+  .lista-vertical a:hover{
+    background-color: aquamarine;
+  }
+
+  #menu-toogle:checked ~ .lista-vertica {
+    display: block;
+  }
+
+  #menu-toogle:checked + .disciplinas{
+    background-color:#000000;
+  }
