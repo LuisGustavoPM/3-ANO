@@ -58,9 +58,9 @@ header {
     cursor: pointer;
     font-size: 35px;
     background: none;
-    background-color: #ffffff;
+    background-color: #000000;
     border: none;
     padding: 1.05px 1.5px;
-    color: #000000;
+    color: #ffffff;
 
   }
