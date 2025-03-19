@@ -31,6 +31,7 @@ header {
 
 .nav-links ul li {
     margin-left: 20px;
+    text-align: justify;
 }
 
 .nav-links ul li a {
