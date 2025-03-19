@@ -93,10 +93,7 @@ header {
     background-color:#000000;
   }
 
-  .a{
-    text-decoration: none;
-    color: white;
-  }
+  
 
   .lista-vertical a {
     color: aliceblue;
@@ -109,4 +106,9 @@ header {
 
   .search-container{
     justify-content: center;
+  }
+  
+  .a{
+    text-decoration: none;
+    color: white;
   }
