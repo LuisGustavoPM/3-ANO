@@ -67,3 +67,14 @@ header {
     width: 20%;
     display: inline-block;
   }
+
+  .linha-vertical{
+    display: none;
+    position: absolute;
+    background-color: aliceblue;
+    box-shadow: 0 2px 5px azure;
+    min-width: 190px;
+    z-index: 1;
+    left: 1rem;
+    top: 100%;
+  }
