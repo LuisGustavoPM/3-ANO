@@ -27,6 +27,7 @@ header {
 .nav-links ul {
     display: flex;
     list-style: none;
+    font-size: 50px;
 }
 
 .nav-links ul li {
