@@ -11,7 +11,7 @@ body {
 header {
     display: flex;
     width: 100%;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
     background-color: #333;
@@ -52,4 +52,14 @@ header {
 
   #menu-toogle{
     display: none;
+  }
+
+  .disciplinas{
+    cursor: pointer;
+    font-size: 2rem;
+    background: none;
+    background-color: #f1f1cd;
+    border: none;
+    padding: 1.05px 1.5px;
+    color: #faebd7;
   }
