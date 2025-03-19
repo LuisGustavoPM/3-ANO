@@ -62,5 +62,9 @@ header {
     border: none;
     padding: 1.05px 1.5px;
     color: #ffffff;
+  }
 
+  .hamburger{
+    width: 20%;
+    display: inline-block;
   }
