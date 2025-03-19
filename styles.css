@@ -90,3 +90,8 @@ header {
   #menu-toogle:checked + .disciplinas{
     background-color:#000000;
   }
+
+  .a{
+    text-decoration: none;
+    color: white;
+  }
