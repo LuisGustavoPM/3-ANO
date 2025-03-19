@@ -16,7 +16,7 @@ header {
     padding: 10px 20px;
     background-color: #333;
     position: relative;
-    color: white;
+    color: rgb(172, 243, 234);
 }
 
 .logo a {
@@ -35,7 +35,7 @@ header {
 }
 
 .nav-links ul li a {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 18px;
     transition: color 0.}
@@ -58,7 +58,7 @@ header {
     cursor: pointer;
     font-size: 35px;
     background: none;
-    background-color: #f1f1cd;
+    background-color: #1f9178;
     border: none;
     padding: 1.05px 1.5px;
     color: #000000;
