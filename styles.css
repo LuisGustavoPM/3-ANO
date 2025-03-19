@@ -106,3 +106,7 @@ header {
     display: block;
     text-align: center;
   }
+
+  .search-container{
+    justify-content: center;
+  }
