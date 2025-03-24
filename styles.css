@@ -49,19 +49,17 @@ header {
   display: none;
 }
 
-/* Botão do menu */
 .disciplinas {
   cursor: pointer;
   font-size: 18px;
   background: none;
-  background-color: #6d2727;
+  background-color: #636363;
   border: none;
   padding: 10px;
   color: #ffffff;
   border-radius: 5px;
 }
 
-/* Estilização do menu vertical */
 .linha-vertical {
   display: none;
   position: absolute;
