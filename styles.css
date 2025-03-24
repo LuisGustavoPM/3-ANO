@@ -90,7 +90,6 @@ header {
   background-color: aquamarine;
 }
 
-/* Mostrar menu quando o checkbox estiver marcado */
 #menu-toggle:checked ~ .linha-vertical {
   display: block;
 }
