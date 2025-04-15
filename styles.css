@@ -93,3 +93,30 @@ header {
 #menu-toggle:checked ~ .linha-vertical {
   display: block;
 }
+
+#Matemática {
+  display: flex;
+  margin: 20px;
+  padding: 10px;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+#Português {
+  display: flex;
+  margin: 20px;
+  padding: 10px;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+#História {
+  display: flex;
+  margin: 20px;
+  padding: 10px;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 500;
+  font-style: normal;
+}
