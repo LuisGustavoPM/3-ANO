@@ -143,17 +143,35 @@ main {
   transform: scale(1.05);
 }
 
-/* Rodapé */
-.rodape {
+
+footer {
   background-color: #004c4c;
   color: white;
   text-align: center;
-  padding: 1rem;
+  padding: 1.2rem 1rem;
   font-size: 0.9rem;
   margin-top: auto;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Responsivo */
+footer .footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+footer a {
+  color: #a0e7e5;
+  text-decoration: none;
+  margin: 0 0.5rem;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+
 @media (max-width: 600px) {
   .search-container input[type="text"] {
     width: 100%;
