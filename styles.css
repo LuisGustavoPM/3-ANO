@@ -4,134 +4,169 @@
   box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth; 
-}
-
 body {
-  font-family: Arial, sans-serif;
-}
-
-header {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  min-height: 100vh;
   display: flex;
-  width: 100%;
-  justify-content: space-between;
-  padding: 10px 20px;
-  background-color: #333;
-  position: relative;
-  color: #acf3ea;
-  align-items: center;
+  flex-direction: column;
 }
 
-.logo a {
+.cabecalho {
+  background: linear-gradient(90deg, #008080, #006666);
   color: white;
-  font-size: 24px;
-  text-decoration: none;
+  padding: 2rem 1rem 1.5rem;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
-.nav-links ul {
-  display: flex;
-  list-style: none;
-}
-
-.nav-links ul li {
-  margin-left: 20px;
-}
-
-.nav-links ul li a {
-  color: white;
-  text-decoration: none;
-  font-size: 18px;
-  transition: color 0.3s;
-}
-
-.nav-links ul li a:hover {
-  color: #acf3ea;
+.titulo {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
 }
 
 .search-container {
   display: flex;
-  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
 }
 
-.search-container input {
-  padding: 5px;
-  border-radius: 5px 0 0 5px;
+.search-container input[type="text"] {
+  padding: 0.5rem;
+  width: 60%;
+  max-width: 400px;
   border: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
 }
 
 .search-container button {
-  padding: 5px 10px;
-  border: none;
-  background-color: #555;
+  padding: 0.5rem 1rem;
+  background-color: #004c4c;
   color: white;
+  border: none;
   border-radius: 0 5px 5px 0;
   cursor: pointer;
+  transition: background 0.3s;
 }
 
-.hamburger {
-  position: relative;
+.search-container button:hover {
+  background-color: #003333;
 }
 
-#menu-toggle {
-  display: none;
+.menu {
+  margin-top: 1rem;
 }
 
-.disciplinas {
-  cursor: pointer;
-  font-size: 18px;
-  background-color: #636363;
-  border: none;
-  padding: 10px;
-  color: #ffffff;
-  border-radius: 5px;
-}
-
-.linha-vertical {
-  display: none;
-  position: absolute;
-  background-color: aliceblue;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  min-width: 190px;
-  z-index: 1;
-  left: 0;
-  top: 100%;
-  list-style: none;
-  border-radius: 5px;
-}
-
-.linha-vertical li {
-  padding: 10px;
-}
-
-.linha-vertical a {
-  color: black;
-  text-decoration: none;
-  font-size: 16px;
-  display: block;
-  text-align: left;
-  padding: 10px;
-}
-
-.linha-vertical a:hover {
-  background-color: aquamarine;
-}
-
-#menu-toggle:checked ~ .linha-vertical {
-  display: block;
-}
-
-
-section {
-  margin: 60px 20px 20px;
-  padding: 20px;
-  scroll-margin-top: 80px; 
-  font-family: "IBM Plex Serif", serif;
-  font-weight: 500;
-  font-style: normal;
-  background-color: #f8f8f8;
+.menu-label {
+  background-color: #004c4c;
+  color: white;
+  padding: 0.6rem 1rem;
+  display: inline-block;
   border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.menu-label:hover {
+  background-color: #003333;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+.lista {
+  display: none;
+  list-style: none;
+  padding: 0.5rem 0;
+}
+
+.menu-toggle:checked + .menu-label + .lista {
+  display: block;
+}
+
+.lista li {
+  margin: 0.5rem 0;
+}
+
+.lista li a {
+  color: white;
+  text-decoration: none;
+  padding: 0.3rem 0.5rem;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.lista li a:hover {
+  background-color: #002e2e;
+  border-radius: 5px;
+}
+
+main {
+  padding: 2rem 1rem;
+  flex: 1;
+  text-align: center;
+}
+
+.secao {
+  margin: 2rem 0;
+}
+
+.destaque h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.botoes-centro {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.botao {
+  background-color: #008080;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.botao:hover {
+  background-color: #006666;
+  transform: scale(1.05);
+}
+
+/* Rodapé */
+.rodape {
+  background-color: #004c4c;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  margin-top: auto;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+  .search-container input[type="text"] {
+    width: 100%;
+  }
+
+  .botoes-centro {
+    flex-direction: column;
+  }
+
+  .botao {
+    width: 80%;
+    margin: 0.5rem auto;
+  }
 }
 
 
