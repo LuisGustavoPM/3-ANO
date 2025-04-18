@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth; 
+}
+
 body {
   font-family: Arial, sans-serif;
 }
@@ -35,10 +39,34 @@ header {
 }
 
 .nav-links ul li a {
-  color: rgb(255, 255, 255);
+  color: white;
   text-decoration: none;
   font-size: 18px;
   transition: color 0.3s;
+}
+
+.nav-links ul li a:hover {
+  color: #acf3ea;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-container input {
+  padding: 5px;
+  border-radius: 5px 0 0 5px;
+  border: none;
+}
+
+.search-container button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #555;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
 }
 
 .hamburger {
@@ -52,7 +80,6 @@ header {
 .disciplinas {
   cursor: pointer;
   font-size: 18px;
-  background: none;
   background-color: #636363;
   border: none;
   padding: 10px;
@@ -94,29 +121,17 @@ header {
   display: block;
 }
 
-#Matemática {
-  display: flex;
-  margin: 20px;
-  padding: 10px;
+
+section {
+  margin: 60px 20px 20px;
+  padding: 20px;
+  scroll-margin-top: 80px; 
   font-family: "IBM Plex Serif", serif;
   font-weight: 500;
   font-style: normal;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-#Português {
-  display: flex;
-  margin: 20px;
-  padding: 10px;
-  font-family: "IBM Plex Serif", serif;
-  font-weight: 500;
-  font-style: normal;
-}
 
-#História {
-  display: flex;
-  margin: 20px;
-  padding: 10px;
-  font-family: "IBM Plex Serif", serif;
-  font-weight: 500;
-  font-style: normal;
-}
