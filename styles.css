@@ -171,20 +171,3 @@ footer a:hover {
   text-decoration: underline;
 }
 
-
-@media (max-width: 600px) {
-  .search-container input[type="text"] {
-    width: 100%;
-  }
-
-  .botoes-centro {
-    flex-direction: column;
-  }
-
-  .botao {
-    width: 80%;
-    margin: 0.5rem auto;
-  }
-}
-
-
