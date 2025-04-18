@@ -1,11 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atividades</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Atividades</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-    
+  <header>
+    <div class="logo">
+      <img src="image 3.png" alt="logo" class="logo" />
+    </div>
+    <nav class="nav-links">
+      <ul>
+        <li><a href="/historia.html#historia">Atividades</a></li>
+        <li><a href="/matematica.html#matematica">Provas</a></li>
+        <li><a href="/portugues.html#portugues">Avaliações</a></li>
+      </ul>
+    </nav>
+    <div class="search-container">
+      <input type="text" placeholder="Pesquisar..." />
+      <button type="submit">🔍</button>
+    </div>
+
+    <div class="hamburger">
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="disciplinas">☰ Disciplinas</label>
+      <ul class="linha-vertical">
+        <li><a href="#matematica">Matemática</a></li>
+        <li><a href="#portugues">Português</a></li>
+        <li><a href="#historia">História</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section id="matematica">
+    <div>
+      <h2>Matemática</h2>
+      <p>
+        🧮 Matemática
+        As atividades de Matemática têm como objetivo desenvolver o raciocínio lógico, a resolução de problemas e a compreensão dos conceitos numéricos e geométricos. Por meio de exercícios práticos, desafios e situações do cotidiano, os alunos aplicam fórmulas, realizam cálculos e exploram diferentes estratégias para encontrar soluções. Essas atividades estimulam a autonomia, a análise crítica e a construção de um pensamento matemático consistente.
+      </p>
+      <img src="" alt="" />
+    </div>
+  </section>
+
+  <section id="portugues">
+    <div>
+      <h2>Português</h2>
+      <p>
+        📖 Português
+        As atividades de Língua Portuguesa envolvem leitura, interpretação de textos, produção escrita, gramática e ortografia. Os estudantes são incentivados a refletir sobre a linguagem, aprimorar sua comunicação oral e escrita, e desenvolver senso crítico através da análise de diversos gêneros textuais. Redações, debates, leitura de obras literárias e exercícios gramaticais fazem parte da rotina, promovendo um domínio mais amplo da língua.
+      </p>
+    </div>
+  </section>
+
+  <section id="historia">
+    <div>
+      <h2>História</h2>
+      <p>
+        🏛️ História
+        Nas atividades de História, os alunos investigam os acontecimentos do passado para compreender o presente e refletir sobre o futuro. Através de leituras, análises de documentos históricos, vídeos e debates, os estudantes exploram diferentes períodos, sociedades e culturas. As atividades estimulam o pensamento crítico, a empatia e a construção de uma visão mais ampla e consciente sobre os processos históricos e sociais.
+      </p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
 </body>
 </html>
